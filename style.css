@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    padding: 23px;
+    background-color: black;
+}
+
+body{
+    background: url("images.jpg") center center no-repeat;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+
+.item a:hover{
+    color: whitesmoke;
+}
+
+.item{
+    padding: 3px 23px;
+    list-style: none;
+    
+}
+
+.container{
+    max-width: 80%;
+    margin: 12px auto;
+    background-color: white;
+    padding: 12px;
+}
